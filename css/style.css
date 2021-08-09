@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --heading-font: san-serif;
+    --sub-heading-font: poppins;
+    --paragraph-font: lobstar;
+    --primary-color: orange;
+    --secondary-color: tomato;
+    --btn-color: #FEC9E8;
+}
+.container{
+    margin-bottom: 80px;
+}
+.carousel-bg{
+    background-color: #fceae8;
+    border-radius: 10px;
+    height: 70vh;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+input.searchbar {
+    position: relative;
+    outline: none;
+    border: 0.3px solid gray;
+    padding: 2px 10px;
+    border-radius: 50px;
+    width: 300px;
+    height: 35px;
+}
+.icon{
+    position:absolute;
+    top: 40%;
+    font-size:large;
+    color:gray;
+    margin-left: -70px;
+}
+.price{
+    color: #FF136F;
+}
+.btn-buy{
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cat1, .cat2, .cat3{
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.cat1{
+    background: linear-gradient(to right, #e07809 0%, #fd9e37 100%);
+ }
+.cat2{
+    background: linear-gradient(to right, #FF589B 0%, #B9335E 100%);
+   }
+.cat3{
+    background: linear-gradient(to right, #4289FF 0%, #3E10A4 100%);
+   }
+.categories img{
+    width: 100px;
+}
+.categories{
+    margin-top: 80px;
+    padding-top: 80px;
+}
+.btn-buy2{
+    background-color: rgb(253, 87, 87);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.btn-buy2:hover{
+    color: white;
+    background: linear-gradient(to right, rgb(91, 143, 91), rgb(182, 124, 18));
+}
+.card{
+   border: none;
+   box-shadow: 5px 5px 10px lightgray;
+}
+.subscribe{
+    background-color: #fceae8;
+    height: 420px;
+}
+.btn-send{
+    height: 40px;
+    width: 75px;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    margin-left: -70px;
+    background-color: rgb(253, 87, 87);
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    }
+    .btn-send:hover{
+        color: white;
+    background: linear-gradient(to right, rgb(91, 143, 91), rgb(182, 124, 18));
+    }
+    .promotion input {
+        height: 40px;
+        width: 97%;
+        outline: none;
+        padding: 2px 5px;
+    }
